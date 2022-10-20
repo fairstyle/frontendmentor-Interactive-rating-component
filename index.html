@@ -5,10 +5,43 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Frontendmentor Challenge - Interactive rating component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./challenge/images/favicon-32x32.png">
     <link href="./dist/output.css" rel="stylesheet">
 </head>
 <body>
-
+    <main class="h-screen bg-verydarkblue grid place-content-center">
+        <div class="bg-[#1f2630] grid grid-flow-col auto-cols-max grid-flow-row-dense p-8 rounded-2xl">
+            <div class="rounded-full bg-[#262e38] h-16 w-16 grid place-content-center">
+                <svg class="h-4 w-4 text-primary" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z"/></svg>
+            </div>
+            <div class="h-fit mt-6">
+                <h3 class="text-white font-bold text-3xl">How did we do?</h3>
+                <p class="text-lightgray text-lg max-w-[450px] mt-2">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            </div>
+            <div class="grid grid-cols-5 pt-4 place-content-center my-4">
+                <div class="col-span-1 flex justify-center">
+                    <div class="rounded-full h-16 w-16 bg-[#262e38] hover:bg-primary cursor-pointer text-mediumgray hover:text-white font-black grid place-content-center">1</div>
+                </div>
+                <div class="col-span-1 flex justify-center">
+                    <div class="rounded-full h-16 w-16 bg-[#262e38] hover:bg-primary cursor-pointer text-mediumgray hover:text-white font-black grid place-content-center">2</div>
+                </div>
+                <div class="col-span-1 flex justify-center">
+                    <div class="rounded-full h-16 w-16 bg-[#262e38] hover:bg-primary cursor-pointer text-mediumgray hover:text-white font-black grid place-content-center">3</div>
+                </div>
+                <div class="col-span-1 flex justify-center">
+                    <div class="rounded-full h-16 w-16 bg-[#262e38] hover:bg-primary cursor-pointer text-mediumgray hover:text-white font-black grid place-content-center">4</div>
+                </div>
+                <div class="col-span-1 flex justify-center">
+                    <div class="rounded-full h-16 w-16 bg-[#262e38] hover:bg-primary cursor-pointer text-mediumgray hover:text-white font-black grid place-content-center">5</div>
+                </div>
+            </div>
+            <div class="row-span-1 grid place-content-center my-4">
+                <button class="bg-primary px-48 py-4 rounded-3xl text-white font-black tracking-wide hover:bg-white hover:text-primary">
+                    SUBMIT
+                </button>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
