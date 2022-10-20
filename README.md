@@ -1,6 +1,7 @@
 # Frontendmentor Challenge
 
-![](challenge/design/desktop-preview.jpg)
+![Frontendmentor Logo](https://miro.medium.com/max/1100/0*cfYEyKU7fH1Vz37c.png)
+![Challenge](challenge/design/desktop-preview.jpg)
 
 ## #2 Interactive rating component
 this is my second challenge from frontendmentor.io
