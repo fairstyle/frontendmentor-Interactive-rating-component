@@ -579,6 +579,10 @@ html {
   grid-row: span 1 / span 1;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -626,12 +630,20 @@ html {
   height: fit-content;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .w-16 {
   width: 4rem;
 }
 
 .w-4 {
   width: 1rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .max-w-\[420px\] {
@@ -694,13 +706,13 @@ html {
   background-color: hsl(var(--color-primary) / var(--tw-bg-opacity));
 }
 
-.p-8 {
-  padding: 2rem;
+.p-4 {
+  padding: 1rem;
 }
 
-.px-48 {
-  padding-left: 12rem;
-  padding-right: 12rem;
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .py-4 {
@@ -797,4 +809,27 @@ html {
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: hsl(var(--color-primary) / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:m-0 {
+    margin: 0px;
+  }
+
+  .md\:h-16 {
+    height: 4rem;
+  }
+
+  .md\:w-16 {
+    width: 4rem;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
+  .md\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
 }
