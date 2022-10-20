@@ -626,21 +626,12 @@ html {
   width: 1rem;
 }
 
-.max-w-\[450px\] {
-  max-width: 450px;
+.max-w-\[420px\] {
+  max-width: 420px;
 }
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.auto-cols-max {
-  grid-auto-columns: -webkit-max-content;
-  grid-auto-columns: max-content;
-}
-
-.grid-flow-col {
-  grid-auto-flow: column;
 }
 
 .grid-flow-row-dense {
@@ -749,6 +740,13 @@ html {
 .text-mediumgray {
   --tw-text-opacity: 1;
   color: hsl(var(--color-mediumgray) / var(--tw-text-opacity));
+}
+
+.selected-item {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--color-mediumgray) / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:bg-primary:hover {

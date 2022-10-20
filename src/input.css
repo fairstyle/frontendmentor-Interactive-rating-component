@@ -18,3 +18,7 @@
         --color-verydarkblue: 216deg 12% 8%;
     }
 }
+
+.selected-item {
+    @apply bg-mediumgray text-white;
+}
