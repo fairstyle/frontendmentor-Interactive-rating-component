@@ -592,12 +592,20 @@ html {
   margin-top: 0.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-screen {
@@ -628,6 +636,10 @@ html {
 
 .max-w-\[420px\] {
   max-width: 420px;
+}
+
+.max-w-\[390px\] {
+  max-width: 390px;
 }
 
 .cursor-pointer {
@@ -696,8 +708,26 @@ html {
   padding-bottom: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-\[\'Overpass\'\] {
+  font-family: 'Overpass';
 }
 
 .text-3xl {
@@ -718,8 +748,8 @@ html {
   font-weight: 900;
 }
 
-.tracking-wide {
-  letter-spacing: 0.025em;
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-primary {
