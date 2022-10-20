@@ -1,0 +1,22 @@
+{
+  "name": "frontendmentor-interactive-rating-component",
+  "version": "1.0.0",
+  "description": "frontendmentor | Interactive rating component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fairstyle/frontendmentor-Interactive-rating-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fairstyle/frontendmentor-Interactive-rating-component/issues"
+  },
+  "homepage": "https://github.com/fairstyle/frontendmentor-Interactive-rating-component#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.0"
+  }
+}
